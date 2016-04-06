@@ -1,0 +1,6 @@
+Things to fix:
+ - log in and register need to change to HTML5 input validation
+ - add user page, cannot register page, log in failed page, 404, server error
+ - justgage for profile page
+ - message being deleted is always id 1
+ - error handing

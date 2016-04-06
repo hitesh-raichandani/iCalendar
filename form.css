@@ -1,0 +1,120 @@
+
+
+* {
+  margin:0;
+  padding:0;
+  
+}
+
+body {
+  
+}
+
+.detail {
+  position:absolute;
+  top:60px;
+  left:350px;
+  max-width:900px;
+  width:80%;
+  margin:0 auto;
+  padding:40px 0px 40px 0px;
+}
+
+.detail h1 {
+  
+  font-family: 'Slabo 27px', serif;
+  
+ 
+ 
+}
+
+.detail p {
+  font-family: 'Slabo 27px', serif;
+  font-size:1.5em;
+  
+}
+
+.fa {
+  margin-right:10px;
+}
+
+.contactUs {
+	position:absolute;
+  top:260px;
+  left:350px;
+  max-width:900px;
+  width:80%;
+  margin:0 auto;
+  padding-bottom:100px;
+}
+
+.name,
+.email {
+  width:49%;
+  border:0;
+  font-size:1.2em;
+  font-family: 'Slabo 27px', serif;
+  
+  
+}
+
+::-webkit-input-placeholder {
+  color: #696969;
+}
+
+
+.name {
+  float:left;
+}
+
+.email {
+  float:right;
+}
+
+.message {
+  width:100%;
+ 
+  font-size:1.4em;
+  margin-top:20px;
+  
+  font-family: 'Slabo 27px', serif;
+  
+  height:400px;
+  
+}
+
+.btn {
+  width:100%;
+  padding:20px;
+  text-align:center;
+  margin-top:20px;
+  font-size:2em;
+  font-family: 'Slabo 27px', serif;
+  cursor:pointer;
+}
+
+
+@media (max-width: 30em) {
+  .detail h1 {
+    font-size:2.3em;
+    letter-spacing:0;
+  }
+  
+  .detail p {
+    font-size:1.1em;
+    line-height:1.4em;
+  }
+  
+  .name,.email {
+    width:100%;
+  }
+  
+  .email {
+    margin-top:20px;
+  }
+  
+  .btn {
+    font-size:1.3em;
+  }
+  
+}

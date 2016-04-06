@@ -1,0 +1,99 @@
+
+
+#inbox{
+	position: absolute;
+	height: 80%;
+	width : 80%;
+	top :80px;
+	left : 280px;
+	
+	 
+}
+ 
+#BOX{
+	
+	width: 80%;
+	height: 100%;
+	padding-top: 40px;
+	background-color: #ececec ;
+  font-family: "Helvetica", sans serif;
+}
+
+.content {
+  width: 800px;
+  background-color: #fff;
+  margin: auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .35);
+}
+
+.email {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #ff6839;
+  border-bottom: 1px solid #CFCFCF;
+  box-sizing: border-box;
+}
+
+.active {
+  border-left: 2px solid #046bc7;
+}
+
+.email-content {
+  color: #888888;
+  width: 400px;
+}
+
+.subject-container {
+  width: 200px;
+}
+
+.email .subject-container i {
+  font-size: 20px;
+  margin-right: 25px;
+}
+
+.update {
+  color: #ff6839;
+}
+
+.promo {
+  color: #00bcd4;
+}
+
+.social {
+  color: #db4437;
+}
+
+.purchases {
+  color: #795548;
+}
+
+.finance {
+  color: #689f38;
+}
+
+.forums {
+  color: #3f51b5;
+}
+
+.email .amount {
+  color: #bbbbbb;
+}
+
+
+
+.day-indicator {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: auto;
+  color: #B2B2B2;
+  box-sizing: border-box;
+  padding: 20px 20px;
+  font-size: 14px;
+}
+
+
